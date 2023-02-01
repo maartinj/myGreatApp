@@ -6,12 +6,18 @@
 //
 
 import SwiftUI
+import Firebase
+import FBAuthentication
 
 @main
 struct My_Great_AppApp: App {
+    init() {
+        FirebaseApp.configure()
+    }
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(UserInfo())
         }
     }
 }

@@ -11,6 +11,9 @@
 		BB6CFAE926FAA56200F1DBAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6CFAE826FAA56200F1DBAB /* ContentView.swift */; };
 		BB6CFAEB26FAA56400F1DBAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB6CFAEA26FAA56400F1DBAB /* Assets.xcassets */; };
 		BB6CFAEE26FAA56400F1DBAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB6CFAED26FAA56400F1DBAB /* Preview Assets.xcassets */; };
+		E4726E04298ABAB0002F7195 /* FBAuthentication in Frameworks */ = {isa = PBXBuildFile; productRef = E4726E03298ABAB0002F7195 /* FBAuthentication */; };
+		E4E468B4298829C6003E2642 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4E468B3298829C6003E2642 /* GoogleService-Info.plist */; };
+		E4E468B929882FB4003E2642 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E468B829882FB4003E2642 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		BB6CFAEA26FAA56400F1DBAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB6CFAED26FAA56400F1DBAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BB6CFAF426FAA60600F1DBAB /* My-Great-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "My-Great-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E4726E01298AB9F8002F7195 /* FBAuthentication-main */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "FBAuthentication-main"; path = "../../../../../../../Downloads/FBAuthentication-main"; sourceTree = "<group>"; };
+		E4E468B3298829C6003E2642 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E4E468B829882FB4003E2642 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4726E04298ABAB0002F7195 /* FBAuthentication in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +45,7 @@
 			children = (
 				BB6CFAE526FAA56200F1DBAB /* My Great App */,
 				BB6CFAE426FAA56200F1DBAB /* Products */,
+				E4726E02298ABAB0002F7195 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +63,9 @@
 				BB6CFAF426FAA60600F1DBAB /* My-Great-App-Info.plist */,
 				BB6CFAE626FAA56200F1DBAB /* My_Great_AppApp.swift */,
 				BB6CFAE826FAA56200F1DBAB /* ContentView.swift */,
+				E4E468B829882FB4003E2642 /* HomeView.swift */,
+				E4726E01298AB9F8002F7195 /* FBAuthentication-main */,
+				E4E468B3298829C6003E2642 /* GoogleService-Info.plist */,
 				BB6CFAEA26FAA56400F1DBAB /* Assets.xcassets */,
 				BB6CFAEC26FAA56400F1DBAB /* Preview Content */,
 			);
@@ -67,6 +78,13 @@
 				BB6CFAED26FAA56400F1DBAB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E4726E02298ABAB0002F7195 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +103,9 @@
 			dependencies = (
 			);
 			name = "My Great App";
+			packageProductDependencies = (
+				E4726E03298ABAB0002F7195 /* FBAuthentication */,
+			);
 			productName = "My Great App";
 			productReference = BB6CFAE326FAA56200F1DBAB /* My Great App.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +134,8 @@
 				Base,
 			);
 			mainGroup = BB6CFADA26FAA56200F1DBAB;
+			packageReferences = (
+			);
 			productRefGroup = BB6CFAE426FAA56200F1DBAB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,6 +152,7 @@
 			files = (
 				BB6CFAEE26FAA56400F1DBAB /* Preview Assets.xcassets in Resources */,
 				BB6CFAEB26FAA56400F1DBAB /* Assets.xcassets in Resources */,
+				E4E468B4298829C6003E2642 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4E468B929882FB4003E2642 /* HomeView.swift in Sources */,
 				BB6CFAE926FAA56200F1DBAB /* ContentView.swift in Sources */,
 				BB6CFAE726FAA56200F1DBAB /* My_Great_AppApp.swift in Sources */,
 			);
@@ -271,7 +296,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"My Great App/Preview Content\"";
-				DEVELOPMENT_TEAM = RKV4UP49S6;
+				DEVELOPMENT_TEAM = 4P4GQMB6S7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "My-Great-App-Info.plist";
@@ -285,7 +310,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yourDomain.My-Great-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mjedrzejak.My-Great-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -301,7 +326,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"My Great App/Preview Content\"";
-				DEVELOPMENT_TEAM = RKV4UP49S6;
+				DEVELOPMENT_TEAM = 4P4GQMB6S7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "My-Great-App-Info.plist";
@@ -315,7 +340,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yourDomain.My-Great-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mjedrzejak.My-Great-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -345,6 +370,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E4726E03298ABAB0002F7195 /* FBAuthentication */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FBAuthentication;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BB6CFADB26FAA56200F1DBAB /* Project object */;
 }
