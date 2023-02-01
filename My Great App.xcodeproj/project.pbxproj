@@ -11,7 +11,7 @@
 		BB6CFAE926FAA56200F1DBAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6CFAE826FAA56200F1DBAB /* ContentView.swift */; };
 		BB6CFAEB26FAA56400F1DBAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB6CFAEA26FAA56400F1DBAB /* Assets.xcassets */; };
 		BB6CFAEE26FAA56400F1DBAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB6CFAED26FAA56400F1DBAB /* Preview Assets.xcassets */; };
-		E4726E04298ABAB0002F7195 /* FBAuthentication in Frameworks */ = {isa = PBXBuildFile; productRef = E4726E03298ABAB0002F7195 /* FBAuthentication */; };
+		E46DB09B298AF5270085420D /* FBAuthentication in Frameworks */ = {isa = PBXBuildFile; productRef = E46DB09A298AF5270085420D /* FBAuthentication */; };
 		E4E468B4298829C6003E2642 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4E468B3298829C6003E2642 /* GoogleService-Info.plist */; };
 		E4E468B929882FB4003E2642 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E468B829882FB4003E2642 /* HomeView.swift */; };
 /* End PBXBuildFile section */
@@ -23,7 +23,7 @@
 		BB6CFAEA26FAA56400F1DBAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB6CFAED26FAA56400F1DBAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BB6CFAF426FAA60600F1DBAB /* My-Great-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "My-Great-App-Info.plist"; sourceTree = SOURCE_ROOT; };
-		E4726E01298AB9F8002F7195 /* FBAuthentication-main */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "FBAuthentication-main"; path = "../../../../../../../Downloads/FBAuthentication-main"; sourceTree = "<group>"; };
+		E46DB099298AF5150085420D /* FBAuthentication-main */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FBAuthentication-main"; sourceTree = SOURCE_ROOT; };
 		E4E468B3298829C6003E2642 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E4E468B829882FB4003E2642 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4726E04298ABAB0002F7195 /* FBAuthentication in Frameworks */,
+				E46DB09B298AF5270085420D /* FBAuthentication in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +64,7 @@
 				BB6CFAE626FAA56200F1DBAB /* My_Great_AppApp.swift */,
 				BB6CFAE826FAA56200F1DBAB /* ContentView.swift */,
 				E4E468B829882FB4003E2642 /* HomeView.swift */,
-				E4726E01298AB9F8002F7195 /* FBAuthentication-main */,
+				E46DB099298AF5150085420D /* FBAuthentication-main */,
 				E4E468B3298829C6003E2642 /* GoogleService-Info.plist */,
 				BB6CFAEA26FAA56400F1DBAB /* Assets.xcassets */,
 				BB6CFAEC26FAA56400F1DBAB /* Preview Content */,
@@ -104,7 +104,7 @@
 			);
 			name = "My Great App";
 			packageProductDependencies = (
-				E4726E03298ABAB0002F7195 /* FBAuthentication */,
+				E46DB09A298AF5270085420D /* FBAuthentication */,
 			);
 			productName = "My Great App";
 			productReference = BB6CFAE326FAA56200F1DBAB /* My Great App.app */;
@@ -372,7 +372,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E4726E03298ABAB0002F7195 /* FBAuthentication */ = {
+		E46DB09A298AF5270085420D /* FBAuthentication */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = FBAuthentication;
 		};
